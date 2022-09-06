@@ -1,2 +1,2 @@
 #!/bin/bash 
-print '%o\n' $(( 4#$( echo $WATER | tr water 0123) + 4#$( echo $STIR | tr stir. 0123) )) | tr 0123456 bestchol
+printf '%o\n' $(( 4#$( echo $WATER | tr water 0123) + 4#$( echo $STIR | tr stir. 0123) )) | tr 0123456 bestchol
