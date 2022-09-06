@@ -1,2 +1,2 @@
 #!/bin/bash 
-chmod u+x *
+find -mindepth 1 -type d | wc -1
